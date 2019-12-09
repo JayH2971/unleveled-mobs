@@ -1,0 +1,13 @@
+{
+    "ModTitle": "Unleveled Mobs",
+    "ModVersion": "0.1",
+    "ModAuthor": "JayH",
+    "ContactInfo": null,
+    "DFUnity_Version": "0.10.4",
+    "ModDescription": null,
+    "GUID": "6aa1c7ad-b44c-4cf8-8fb4-ac5300329052",
+    "Files": [
+        "Assets/Game/Mods/UnleveledMobs/Scripts/UnleveledMobsMod.cs"
+    ],
+    "Contributes": null
+}
