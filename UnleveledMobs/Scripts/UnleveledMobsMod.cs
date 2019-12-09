@@ -38,7 +38,7 @@ namespace UnleveledMobs
             // Set new encounter tables.
 
             // Crypt - Index0
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Crypt,
                 Enemies = new MobileTypes[]
@@ -67,7 +67,7 @@ namespace UnleveledMobs
             };
 
             // Orc Stronghold - Index1
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.OrcStronghold,
                 Enemies = new MobileTypes[]
@@ -96,7 +96,7 @@ namespace UnleveledMobs
             };
 
             // Human Stronghold - Index2
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.HumanStronghold,
                 Enemies = new MobileTypes[]
@@ -125,7 +125,7 @@ namespace UnleveledMobs
             };
 
             // Prison - Index3
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Prison,
                 Enemies = new MobileTypes[]
@@ -154,7 +154,7 @@ namespace UnleveledMobs
             };
 
             // Desecrated Temple - Index4
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.DesecratedTemple,
                 Enemies = new MobileTypes[]
@@ -183,7 +183,7 @@ namespace UnleveledMobs
             };
 
             // Mine - Index5
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Mine,
                 Enemies = new MobileTypes[]
@@ -212,7 +212,7 @@ namespace UnleveledMobs
             };
 
             // Natural Cave - Index6
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.NaturalCave,
                 Enemies = new MobileTypes[]
@@ -241,7 +241,7 @@ namespace UnleveledMobs
             };
 
             // Coven - Index7
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Coven,
                 Enemies = new MobileTypes[]
@@ -270,7 +270,7 @@ namespace UnleveledMobs
             };
 
             // Vampire Haunt - Index8
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.VampireHaunt,
                 Enemies = new MobileTypes[]
@@ -299,7 +299,7 @@ namespace UnleveledMobs
             };
 
             // Laboratory - Index9
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Laboratory,
                 Enemies = new MobileTypes[]
@@ -328,7 +328,7 @@ namespace UnleveledMobs
             };
 
             // Harpy Nest - Index10
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.HarpyNest,
                 Enemies = new MobileTypes[]
@@ -357,7 +357,7 @@ namespace UnleveledMobs
             };
 
             // Ruined Castle - Index11
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.RuinedCastle,
                 Enemies = new MobileTypes[]
@@ -386,7 +386,7 @@ namespace UnleveledMobs
             };
 
             // Spider Nest - Index12
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.SpiderNest,
                 Enemies = new MobileTypes[]
@@ -415,7 +415,7 @@ namespace UnleveledMobs
             };
 
             // Giant Stronghold - Index13
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.GiantStronghold,
                 Enemies = new MobileTypes[]
@@ -444,7 +444,7 @@ namespace UnleveledMobs
             };
 
             // Dragon's Den - Index14
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.DragonsDen,
                 Enemies = new MobileTypes[]
@@ -473,7 +473,7 @@ namespace UnleveledMobs
             };
 
             // Barbarian Stronghold - Index15
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.BarbarianStronghold,
                 Enemies = new MobileTypes[]
@@ -502,7 +502,7 @@ namespace UnleveledMobs
             };
 
             // Volcanic Caves - Index16
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.VolcanicCaves,
                 Enemies = new MobileTypes[]
@@ -531,7 +531,7 @@ namespace UnleveledMobs
             };
 
             // Scorpion Nest - Index17
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.ScorpionNest,
                 Enemies = new MobileTypes[]
@@ -560,7 +560,7 @@ namespace UnleveledMobs
             };
 
             // Cemetery - Index18
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -589,7 +589,7 @@ namespace UnleveledMobs
 
             /*
             // Cemetery - DF Unity version
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Cemetery,
                 Enemies = new MobileTypes[]
@@ -609,7 +609,7 @@ namespace UnleveledMobs
             },*/
 
             // Underwater - Index19
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -637,7 +637,7 @@ namespace UnleveledMobs
             };
 
             // Desert, in location, night - Index20
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -665,7 +665,7 @@ namespace UnleveledMobs
             };
 
             // Desert, not in location, day - Index21
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -693,7 +693,7 @@ namespace UnleveledMobs
             };
 
             // Desert, not in location, night - Index22
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -721,7 +721,7 @@ namespace UnleveledMobs
             };
 
             // Mountain, in location, night - Index23
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -749,7 +749,7 @@ namespace UnleveledMobs
             };
 
             // Mountain, not in location, day - Index24
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -777,7 +777,7 @@ namespace UnleveledMobs
             };
 
             // Mountain, not in location, night - Index25
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -805,7 +805,7 @@ namespace UnleveledMobs
             };
 
             // Rainforest, in location, night - Index26
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -833,7 +833,7 @@ namespace UnleveledMobs
             };
 
             // Rainforest, not in location, day - Index27
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -861,7 +861,7 @@ namespace UnleveledMobs
             };
 
             // Rainforest, not in location, night - Index28
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -889,7 +889,7 @@ namespace UnleveledMobs
             };
 
             // Subtropical, in location, night - Index29
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -917,7 +917,7 @@ namespace UnleveledMobs
             };
 
             // Subtropical, not in location, day - Index30
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -945,7 +945,7 @@ namespace UnleveledMobs
             };
 
             // Subtropical, not in location, night - Index31
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -973,7 +973,7 @@ namespace UnleveledMobs
             };
 
             // Swamp/woodlands, in location, night - Index32
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1001,7 +1001,7 @@ namespace UnleveledMobs
             };
 
             // Swamp/woodlands, not in location, day - Index33
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1029,7 +1029,7 @@ namespace UnleveledMobs
             };
 
             // Swamp/woodlands, not in location, night - Index34
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1057,7 +1057,7 @@ namespace UnleveledMobs
             };
 
             // Haunted woodlands, in location, night - Index35
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1085,7 +1085,7 @@ namespace UnleveledMobs
             };
 
             // Haunted woodlands, not in location, day - Index36
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1113,7 +1113,7 @@ namespace UnleveledMobs
             };
 
             // Haunted woodlands, not in location, night - Index37
-            new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
