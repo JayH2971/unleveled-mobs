@@ -609,7 +609,7 @@ namespace UnleveledMobs
             },*/
 
             // Underwater - Index19
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[19] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[19] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -634,10 +634,10 @@ namespace UnleveledMobs
                     MobileTypes.Slaughterfish,
                     MobileTypes.Slaughterfish,
                 },
-            },
+            };
 
             // Desert, in location, night - Index20
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[20]] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[20] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -662,10 +662,10 @@ namespace UnleveledMobs
                     MobileTypes.GiantBat,
                     MobileTypes.Rat,
                 },
-            },
+            };
 
             // Desert, not in location, day - Index21
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[21] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[21] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -690,10 +690,10 @@ namespace UnleveledMobs
                     MobileTypes.GiantScorpion,
                     MobileTypes.Rat,
                 },
-            },
+            };
 
             // Desert, not in location, night - Index22
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[22] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[22] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -718,10 +718,10 @@ namespace UnleveledMobs
                     MobileTypes.SkeletalWarrior,
                     MobileTypes.Zombie,
                 },
-            },
+            };
 
             // Mountain, in location, night - Index23
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[23] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[23] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -746,10 +746,10 @@ namespace UnleveledMobs
                     MobileTypes.Nightblade,
                     MobileTypes.Assassin,
                 },
-            },
+            };
 
             // Mountain, not in location, day - Index24
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[24] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[24] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -774,10 +774,10 @@ namespace UnleveledMobs
                     MobileTypes.Sorcerer,
                     MobileTypes.Gargoyle,
                 },
-            },
+            };
 
             // Mountain, not in location, night - Index25
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[25] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[25] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -802,10 +802,10 @@ namespace UnleveledMobs
                     MobileTypes.Zombie,
                     MobileTypes.Mummy,
                 },
-            },
+            };
 
             // Rainforest, in location, night - Index26
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[26] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[26] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -830,10 +830,10 @@ namespace UnleveledMobs
                     MobileTypes.Acrobat,
                     MobileTypes.Barbarian,
                 },
-            },
+            };
 
             // Rainforest, not in location, day - Index27
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[27] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[27] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -858,10 +858,10 @@ namespace UnleveledMobs
                     MobileTypes.Rat,
                     MobileTypes.GrizzlyBear,
                 },
-            },
+            };
 
             // Rainforest, not in location, night - Index28
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[28] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[28] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -886,10 +886,10 @@ namespace UnleveledMobs
                     MobileTypes.Vampire,
                     MobileTypes.Lich,
                 },
-            },
+            };
 
             // Subtropical, in location, night - Index29
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[29] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[29] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -914,10 +914,10 @@ namespace UnleveledMobs
                     MobileTypes.Acrobat,
                     MobileTypes.Barbarian,
                 },
-            },
+            };
 
             // Subtropical, not in location, day - Index30
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[30] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[30] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -942,10 +942,10 @@ namespace UnleveledMobs
                     MobileTypes.Rat,
                     MobileTypes.GrizzlyBear,
                 },
-            },
+            };
 
             // Subtropical, not in location, night - Index31
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[31] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[31] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -970,10 +970,10 @@ namespace UnleveledMobs
                     MobileTypes.Vampire,
                     MobileTypes.Lich,
                 },
-            },
+            };
 
             // Swamp/woodlands, in location, night - Index32
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[32] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[32] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -998,10 +998,10 @@ namespace UnleveledMobs
                     MobileTypes.Acrobat,
                     MobileTypes.Barbarian,
                 },
-            },
+            };
 
             // Swamp/woodlands, not in location, day - Index33
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[33] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[33] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1026,10 +1026,10 @@ namespace UnleveledMobs
                     MobileTypes.Knight,
                     MobileTypes.Spellsword,
                 },
-            },
+            };
 
             // Swamp/woodlands, not in location, night - Index34
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[34] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[34] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1054,10 +1054,10 @@ namespace UnleveledMobs
                     MobileTypes.Vampire,
                     MobileTypes.Lich,
                 },
-            },
+            };
 
             // Haunted woodlands, in location, night - Index35
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[35] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[35] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1082,10 +1082,10 @@ namespace UnleveledMobs
                     MobileTypes.Acrobat,
                     MobileTypes.Barbarian,
                 },
-            },
+            };
 
             // Haunted woodlands, not in location, day - Index36
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[36] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[36] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1110,10 +1110,10 @@ namespace UnleveledMobs
                     MobileTypes.Imp,
                     MobileTypes.GrizzlyBear,
                 },
-            },
+            };
 
             // Haunted woodlands, not in location, night - Index37
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[37] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[37] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1138,9 +1138,9 @@ namespace UnleveledMobs
                     MobileTypes.Vampire,
                     MobileTypes.Lich,
                 },
-            },
+            };
 
-            Debug.Log("Finished mod init: UnleveledMobs"),
+            Debug.Log("Finished mod init: UnleveledMobs");
         }
 
     }
