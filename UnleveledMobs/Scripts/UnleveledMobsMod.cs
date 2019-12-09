@@ -38,7 +38,7 @@ namespace UnleveledMobs
             // Set new encounter tables.
 
             // Crypt - Index0
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.Crypt] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Crypt,
                 Enemies = new MobileTypes[]
@@ -96,7 +96,7 @@ namespace UnleveledMobs
             };
 
             // Human Stronghold - Index2
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.HumanStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.HumanStronghold,
                 Enemies = new MobileTypes[]
@@ -125,7 +125,7 @@ namespace UnleveledMobs
             };
 
             // Prison - Index3
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.Prison] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Prison,
                 Enemies = new MobileTypes[]
@@ -154,7 +154,7 @@ namespace UnleveledMobs
             };
 
             // Desecrated Temple - Index4
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.DesecratedTemple] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.DesecratedTemple,
                 Enemies = new MobileTypes[]
@@ -183,7 +183,7 @@ namespace UnleveledMobs
             };
 
             // Mine - Index5
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.Mine] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Mine,
                 Enemies = new MobileTypes[]
@@ -212,7 +212,7 @@ namespace UnleveledMobs
             };
 
             // Natural Cave - Index6
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.NaturalCave] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.NaturalCave,
                 Enemies = new MobileTypes[]
@@ -241,7 +241,7 @@ namespace UnleveledMobs
             };
 
             // Coven - Index7
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.Coven] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Coven,
                 Enemies = new MobileTypes[]
@@ -270,7 +270,7 @@ namespace UnleveledMobs
             };
 
             // Vampire Haunt - Index8
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.VampireHaunt] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.VampireHaunt,
                 Enemies = new MobileTypes[]
@@ -299,7 +299,7 @@ namespace UnleveledMobs
             };
 
             // Laboratory - Index9
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.Laboratory] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.Laboratory,
                 Enemies = new MobileTypes[]
@@ -328,7 +328,7 @@ namespace UnleveledMobs
             };
 
             // Harpy Nest - Index10
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.HarpyNest] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.HarpyNest,
                 Enemies = new MobileTypes[]
@@ -357,7 +357,7 @@ namespace UnleveledMobs
             };
 
             // Ruined Castle - Index11
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.RuinedCastle] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.RuinedCastle,
                 Enemies = new MobileTypes[]
@@ -386,7 +386,7 @@ namespace UnleveledMobs
             };
 
             // Spider Nest - Index12
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.SpiderNest] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.SpiderNest,
                 Enemies = new MobileTypes[]
@@ -415,7 +415,7 @@ namespace UnleveledMobs
             };
 
             // Giant Stronghold - Index13
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.GiantStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.GiantStronghold,
                 Enemies = new MobileTypes[]
@@ -444,7 +444,7 @@ namespace UnleveledMobs
             };
 
             // Dragon's Den - Index14
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.DragonsDen] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.DragonsDen,
                 Enemies = new MobileTypes[]
@@ -473,7 +473,7 @@ namespace UnleveledMobs
             };
 
             // Barbarian Stronghold - Index15
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.BarbarianStronghold] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.BarbarianStronghold,
                 Enemies = new MobileTypes[]
@@ -502,7 +502,7 @@ namespace UnleveledMobs
             };
 
             // Volcanic Caves - Index16
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.VolcanicCaves] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.VolcanicCaves,
                 Enemies = new MobileTypes[]
@@ -531,7 +531,7 @@ namespace UnleveledMobs
             };
 
             // Scorpion Nest - Index17
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.ScorpionNest] = new RandomEncounterTable()
             {
                 DungeonType = DFRegion.DungeonTypes.ScorpionNest,
                 Enemies = new MobileTypes[]
@@ -560,7 +560,7 @@ namespace UnleveledMobs
             };
 
             // Cemetery - Index18
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.Cemetery] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
