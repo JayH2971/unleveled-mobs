@@ -609,7 +609,7 @@ namespace UnleveledMobs
             },*/
 
             // Underwater - Index19
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[19] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -637,7 +637,7 @@ namespace UnleveledMobs
             };
 
             // Desert, in location, night - Index20
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[20]] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -665,7 +665,7 @@ namespace UnleveledMobs
             };
 
             // Desert, not in location, day - Index21
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[21] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -693,7 +693,7 @@ namespace UnleveledMobs
             };
 
             // Desert, not in location, night - Index22
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[22] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -721,7 +721,7 @@ namespace UnleveledMobs
             };
 
             // Mountain, in location, night - Index23
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[23] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -749,7 +749,7 @@ namespace UnleveledMobs
             };
 
             // Mountain, not in location, day - Index24
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[24] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -777,7 +777,7 @@ namespace UnleveledMobs
             };
 
             // Mountain, not in location, night - Index25
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[25] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -805,7 +805,7 @@ namespace UnleveledMobs
             };
 
             // Rainforest, in location, night - Index26
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[26] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -833,7 +833,7 @@ namespace UnleveledMobs
             };
 
             // Rainforest, not in location, day - Index27
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[27] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -861,7 +861,7 @@ namespace UnleveledMobs
             };
 
             // Rainforest, not in location, night - Index28
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[28] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -889,7 +889,7 @@ namespace UnleveledMobs
             };
 
             // Subtropical, in location, night - Index29
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[29] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -917,7 +917,7 @@ namespace UnleveledMobs
             };
 
             // Subtropical, not in location, day - Index30
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[30] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -945,7 +945,7 @@ namespace UnleveledMobs
             };
 
             // Subtropical, not in location, night - Index31
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[31] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -973,7 +973,7 @@ namespace UnleveledMobs
             };
 
             // Swamp/woodlands, in location, night - Index32
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[32] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1001,7 +1001,7 @@ namespace UnleveledMobs
             };
 
             // Swamp/woodlands, not in location, day - Index33
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[33] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1029,7 +1029,7 @@ namespace UnleveledMobs
             };
 
             // Swamp/woodlands, not in location, night - Index34
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[34] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1057,7 +1057,7 @@ namespace UnleveledMobs
             };
 
             // Haunted woodlands, in location, night - Index35
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[35] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1085,7 +1085,7 @@ namespace UnleveledMobs
             };
 
             // Haunted woodlands, not in location, day - Index36
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[36] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
@@ -1113,7 +1113,7 @@ namespace UnleveledMobs
             };
 
             // Haunted woodlands, not in location, night - Index37
-            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes.OrcStronghold] = new RandomEncounterTable()
+            RandomEncounters.EncounterTables[(int)DFRegion.DungeonTypes[37] = new RandomEncounterTable()
             {
                 Enemies = new MobileTypes[]
                 {
